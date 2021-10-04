@@ -59,3 +59,12 @@ section img{
 #git{
     text-align: center;
 }
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(44, 43, 90);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
