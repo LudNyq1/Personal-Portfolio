@@ -1,0 +1,1 @@
+console.log("Excercise 2 completed!");

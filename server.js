@@ -10,7 +10,15 @@ app.get('/', (req, res) => {
     fs.readFile('/index.html', (err, data) =>{
         res.send(data);
     });
+
 });
+
+app.get('/anka', (req, res) =>{
+    fs.readFile('exc2.js', (err, data) => {
+        res.send(data);
+    });
+});
+
 
 app.listen(port, () => {
     console.log(`Listening at ${port}`);
